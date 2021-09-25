@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Stack, Flex, Circle, Box, Text, Button } from '@chakra-ui/react';
+import { Stack, Flex, Circle, Box, Text, Button, Image } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query';
 export const Header = () => {
 
@@ -18,10 +18,13 @@ export const Header = () => {
                     <Text fontSize="6xl" fontWeight="bold"
                         bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>Dani
                     </Text>
-                    <Text>GDE - Flutter, Firebase. Founder of https://codepur.dev & https://velocityx.dev.
-                        Building @frontierdotxyz, YouTuber & Entrepreneur 🗣</Text>
+                    <Text> HTML-CSS-JAVASCRIPT-REACT🗣</Text>
+                    <Button mt="8" colorScheme="blue" onClick={() => window.open("https://github.com/DanMartinez01")}>Hire me</Button>
                 </Box>
-                <Button mt="8" colorScheme="blue" onClick={() => window.open("https://github.com/DanMartinez01")}>Hire me</Button>
+                <Image mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"}
+                    src="https://github.com/github.png?size=460" borderRadius="full" alignSelf="center" boxSize="300px"
+                    backgroundColor="transparent" boxShadow="lg"
+                />
             </Flex>
         </Stack>
     )
