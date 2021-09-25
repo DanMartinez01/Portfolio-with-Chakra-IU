@@ -10,16 +10,15 @@ export const Profile = () => {
         >
             {/* maxWidth={{ base: "90vh", md: "100vh", lg: "100vh", xl: "100vh" }} */}
 
-
+            {/* <Text fontWeight="bold" fontSize="2xl" color="gray.400" align="center">Web Developer </Text> */}
             <Box alignSelf="center" px="32" py="16">
-                <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
-                    7+
+                <Heading fontWeight="bold" color="cyan.500" size="2xl">
+                    My projects
                 </Heading>
-                <Text fontSize="2xl" color="gray.400">years experience</Text>
             </Box>
 
             <Box alignSelf="center" px="32" py="16">
-                <Text fontWeight="bold" fontSize="2xl" color="gray.400">Web Developer </Text>
+
                 <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8}>
                     <Flex rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end">
                         <Icon color="white" p="4" as={DiAndroid} w="24" h="24" />
