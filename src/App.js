@@ -27,8 +27,8 @@ function App() {
           <IconButton icon={<FaInstagram />} isRound="true" ></IconButton>
         </Flex>
         <Header />
-        <Profile />
         <Social />
+        <Profile />
       </VStack>
     </ChakraProvider>
   );

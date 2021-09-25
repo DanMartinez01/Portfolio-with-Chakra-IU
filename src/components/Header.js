@@ -4,7 +4,7 @@ import { Stack, Flex, Circle, Box, Text, Button, Image } from '@chakra-ui/react'
 import { useMediaQuery } from '@chakra-ui/media-query';
 export const Header = () => {
 
-    const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
+    const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");
 
 
     return (
@@ -18,7 +18,7 @@ export const Header = () => {
                     <Text fontSize="6xl" fontWeight="bold"
                         bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>Dani
                     </Text>
-                    <Text> HTML-CSS-JAVASCRIPT-REACT🗣</Text>
+                    <Text> HTML-CSS-JAVASCRIPT-REACT </Text>
                     <Button mt="8" colorScheme="blue" onClick={() => window.open("https://github.com/DanMartinez01")}>Hire me</Button>
                 </Box>
                 <Image mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"}
