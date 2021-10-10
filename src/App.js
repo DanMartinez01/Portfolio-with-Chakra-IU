@@ -8,11 +8,12 @@ import {
   VStack,
   theme,
 } from '@chakra-ui/react';
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Header } from './components/Header';
 import { Profile } from './components/Profile';
 import { Social } from './components/Social';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -24,11 +25,11 @@ function App() {
           <ColorModeSwitcher isRound="true" />
           <IconButton icon={<FaGithub />} isRound="true" ></IconButton>
           <IconButton icon={<FaLinkedin />} isRound="true" ></IconButton>
-          <IconButton icon={<FaInstagram />} isRound="true" ></IconButton>
         </Flex>
         <Header />
         <Social />
         <Profile />
+        <Footer></Footer>
       </VStack>
     </ChakraProvider>
   );

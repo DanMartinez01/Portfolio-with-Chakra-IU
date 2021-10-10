@@ -10,7 +10,7 @@ export const Header = () => {
 
     return (
         <Stack>
-            <Circle position="absolute" bg="blue.100" opacity="0.1" w="200px" h="200px" alignSelf="flex-end" />
+            <Circle position="absolute" bg="blue.100" opacity="0.1" w="180px" h="180px" alignSelf="flex-end" />
             <Flex direction={isNotSmallerScreen ? "row" : "column"}
                 spacing="200px" p={isNotSmallerScreen ? "32" : "0"}
                 alignSelf="flex-start">
@@ -20,13 +20,13 @@ export const Header = () => {
                         bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>Dani
                     </Text>
                     <Text> HTML-Css-JavaScript-React </Text>
-                    <Button mt="8" colorScheme="blue"
+                    <Button mt="8" colorScheme="blue" alignSelf="center"
                         onClick={() => window.open("https://github.com/DanMartinez01")}>
                         Hire me
                     </Button>
                 </Box>
                 <Image mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"}
-                    src={profilePhoto} borderRadius="full" alignSelf="center" boxSize="200px"
+                    src={profilePhoto} borderRadius="full" alignSelf="center" boxSize="180px"
                     backgroundColor="transparent" boxShadow="lg"
                 />
             </Flex>
