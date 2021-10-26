@@ -23,8 +23,12 @@ function App() {
           <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">Dani Martinez</Heading>
           <Spacer />
           <ColorModeSwitcher isRound="true" />
-          <IconButton icon={<FaGithub />} isRound="true" ></IconButton>
-          <IconButton icon={<FaLinkedin />} isRound="true" ></IconButton>
+          <IconButton icon={<FaGithub />} isRound="true"
+            onClick={() => window.open("https://github.com/DanMartinez01")} >
+          </IconButton>
+          <IconButton icon={<FaLinkedin />} isRound="true"
+            onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")}>
+          </IconButton>
         </Flex>
         <Header />
         <Social />
