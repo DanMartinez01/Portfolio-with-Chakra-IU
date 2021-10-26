@@ -21,8 +21,8 @@ export const Header = () => {
                     </Text>
                     <Text> HTML-Css-JavaScript-React </Text>
                     <Button mt="8" colorScheme="blue" alignSelf="center"
-                        onClick={() => window.open("https://github.com/DanMartinez01")}>
-                        Hire me
+                        onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")}>
+                        Contact me
                     </Button>
                 </Box>
                 <Image mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"}
