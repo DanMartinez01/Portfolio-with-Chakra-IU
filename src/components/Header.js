@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Stack, Flex, Circle, Box, Text, Button, Spacer, Image } from '@chakra-ui/react';
+import { Stack, Flex, Circle, Box, Text, Image } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query';
 
 import profilePhoto from '../assets/profilePic.jpg'
