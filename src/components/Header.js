@@ -19,19 +19,19 @@ export const Header = () => {
                     <Text fontSize="6xl" fontWeight="bold"
                         bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>Dani
                     </Text>
-                    <Text> HTML-Css-JavaScript-React </Text>
-                    <Button mt="8" colorScheme="blue" alignSelf="center"
-                        onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")}>
-                        Contact me
-                    </Button>
+                    <Text fontWeight="bold" fontSize="2xl" color="gray.400">Web Developer </Text>
                 </Box>
-                <Image mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"}
+                {/* <Image mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"}
                     src={profilePhoto} borderRadius="full" alignSelf="center" boxSize="180px"
                     backgroundColor="transparent" boxShadow="lg"
-                />
+                /> */}
             </Flex>
-            <Text fontWeight="bold" fontSize="2xl" color="gray.400" align="center">Web Developer </Text>
             <Spacer />
+            <Text align="center">JavaScript-React </Text>
+            <Button mt="8" p="4" colorScheme="blue" align="center"
+                onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")}>
+                Contact me
+            </Button>
         </Stack>
     )
 }

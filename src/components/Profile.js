@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { Flex, Box, Icon, Link, } from '@chakra-ui/react'
+import { Flex, Box, Icon, Link, Text, Button } from '@chakra-ui/react'
 import { FaShoppingCart } from 'react-icons/fa'
 import { BiStore } from 'react-icons/bi'
 // import { CgPokemon } from 'react-icons/cg'
@@ -20,13 +20,12 @@ export const Profile = () => {
                     My projects:
                 </Heading>
             </Box> */}
-
             <Box alignSelf="center" px="12" py="8" margin={"auto"}>
                 {/* <Heading fontWeight="bold" color="cyan.500" size="2xl" textAlign="center" p={isNotSmallerScreen ? "16" : "0"}>
                     My projects
                 </Heading> */}
-                <Flex direction={isNotSmallerScreen ? "row" : "column"}
-                    mt={8} >
+
+                <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
                     <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="blue.400" h="30vh" w="30vh" justify="flex-end">
                         <Icon color="white" p="4" as={BiStore} w="24" h="24" />
                         <Link href="https://www.romamuebles.com.ar/" isExternal
@@ -54,16 +53,6 @@ export const Profile = () => {
                             Colour Game
                         </Link>
                     </Flex>
-                    {/* <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0}
-                        bg="gray.100" h="30vh" w="30vh" justify="flex-end"
-                        _hover={{ bg: "green.400", }}>
-                        <Icon as={CgPokemon} p="4" w="24" h="24" color="black" />
-                        <Link href="https://quizzical-yonath-ebc2f9.netlify.app/" isExternal
-                            color="black" p="4" fontSize="xl" fontWeight="semibold" textDecoration="none"
-                        >
-                            PokeDex
-                        </Link>
-                    </Flex> */}
                     <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0}
                         bg="gray.100" h="30vh" w="30vh" justify="flex-end"
                         _hover={{ bg: "green.400", }}>
