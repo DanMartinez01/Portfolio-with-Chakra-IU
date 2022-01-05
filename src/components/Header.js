@@ -1,9 +1,9 @@
 
 import React from 'react';
-import { Stack, Flex, Circle, Box, Text, Button, Image, Spacer } from '@chakra-ui/react';
+import { Stack, Flex, Circle, Box, Text, Button, Spacer } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query';
 
-import profilePhoto from '../assets/profilePic.jpg'
+// import profilePhoto from '../assets/profilePic.jpg'
 
 export const Header = () => {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");

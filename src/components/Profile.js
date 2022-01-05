@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { Flex, Box, Icon, Link, Text, Button } from '@chakra-ui/react'
+import { Flex, Box, Icon, Link } from '@chakra-ui/react'
 import { FaShoppingCart } from 'react-icons/fa'
 import { BiStore } from 'react-icons/bi'
 // import { CgPokemon } from 'react-icons/cg'
