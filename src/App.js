@@ -33,7 +33,7 @@ function App() {
         <Header />
         <Social />
         <Profile />
-        <Footer></Footer>
+        <Footer />
       </VStack>
     </ChakraProvider>
   );

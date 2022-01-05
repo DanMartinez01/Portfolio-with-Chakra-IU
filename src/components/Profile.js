@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { Flex, Box, Icon, Link } from '@chakra-ui/react'
+import { Flex, Box, Icon, Link, Heading } from '@chakra-ui/react'
 import { FaShoppingCart } from 'react-icons/fa'
 import { BiStore } from 'react-icons/bi'
 // import { CgPokemon } from 'react-icons/cg'
@@ -21,9 +21,9 @@ export const Profile = () => {
                 </Heading>
             </Box> */}
             <Box alignSelf="center" px="12" py="8" margin={"auto"}>
-                {/* <Heading fontWeight="bold" color="cyan.500" size="2xl" textAlign="center" p={isNotSmallerScreen ? "16" : "0"}>
+                <Heading fontWeight="bold" color="gray.400" size="2xl" textAlign="center" p={isNotSmallerScreen ? "4" : "0"}>
                     My projects
-                </Heading> */}
+                </Heading>
 
                 <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
                     <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="blue.400" h="30vh" w="30vh" justify="flex-end">

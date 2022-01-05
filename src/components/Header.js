@@ -1,9 +1,9 @@
 
 import React from 'react';
-import { Stack, Flex, Circle, Box, Text, Button, Spacer } from '@chakra-ui/react';
+import { Stack, Flex, Circle, Box, Text, Button, Spacer, Image } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query';
 
-// import profilePhoto from '../assets/profilePic.jpg'
+import profilePhoto from '../assets/profilePic.jpg'
 
 export const Header = () => {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");
@@ -12,7 +12,7 @@ export const Header = () => {
         <Stack>
             <Circle position="absolute" bg="blue.100" opacity="0.1" w="180px" h="180px" alignSelf="flex-end" />
             <Flex direction={isNotSmallerScreen ? "row" : "column"}
-                spacing="200px" p={isNotSmallerScreen ? "32" : "0"}
+                spacing="200px" p={isNotSmallerScreen ? "31.5" : "0"}
                 alignSelf="flex-start">
                 <Box mt={isNotSmallerScreen ? "0" : 16} alignSelf="flex-start">
                     <Text fontSize="4xl" fontWeight="semibold">Hi, I am</Text>
@@ -21,18 +21,17 @@ export const Header = () => {
                     </Text>
                     <Text fontWeight="bold" fontSize="2xl" color="gray.400">Web Developer </Text>
                 </Box>
-                {/* <Image mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"}
+                <Image mt={isNotSmallerScreen ? "0" : "14"} mb={isNotSmallerScreen ? "0" : "12"}
                     src={profilePhoto} borderRadius="full" alignSelf="center" boxSize="180px"
-                    backgroundColor="transparent" boxShadow="lg"
-                /> */}
+                    backgroundColor="transparent" boxShadow="lg" zIndex={100}
+                />
             </Flex>
-            <Spacer />
-            <Text align="center">JavaScript-React </Text>
-            <Button mt="8" p="4" colorScheme="blue" align="center"
+            {/* <Text align="center">JavaScript-React </Text>
+            <Button m="8" p="4" colorScheme="blue" align="center"
                 onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")}>
                 Contact me
-            </Button>
-        </Stack>
+            </Button> */}
+        </Stack >
     )
 }
 export default Header;

@@ -5,14 +5,13 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 export const Social = () => {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");
-    // const [isSmallestScreens] = useMediaQuery("(min-width:400px)");
     return (
-        <HStack spacing={isNotSmallerScreen ? "12" : "8"}>
+        <HStack spacing={isNotSmallerScreen ? "12" : "8"} p="4">
             <Icon as={FaLinkedin} boxSize="50"
                 onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")} />
             <Icon as={FaGithub} boxSize="50"
                 onClick={() => window.open("https://github.com/DanMartinez01")} />
-        </HStack>
+        </HStack >
     )
 }
 export default Social;
