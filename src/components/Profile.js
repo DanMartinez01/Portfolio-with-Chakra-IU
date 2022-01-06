@@ -1,11 +1,10 @@
 import React from 'react';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { Flex, Box, Icon, Link, Heading, Image, Text, Stack } from '@chakra-ui/react'
-import { FaShoppingCart } from 'react-icons/fa'
-import { BiStore } from 'react-icons/bi'
-// import { CgPokemon } from 'react-icons/cg'
-import { GrGamepad } from "react-icons/gr";
-import { TiWeatherPartlySunny } from "react-icons/ti";
+import { Flex, Box, Link, Heading, Image, Stack } from '@chakra-ui/react'
+// import { FaShoppingCart } from 'react-icons/fa'
+// import { BiStore } from 'react-icons/bi'
+// import { GrGamepad } from "react-icons/gr";
+// import { TiWeatherPartlySunny } from "react-icons/ti";
 import RomaMuebles from '../assets/14.jpg';
 import OtroCielo from '../assets/17.jpg';
 
