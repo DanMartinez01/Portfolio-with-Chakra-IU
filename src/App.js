@@ -31,8 +31,8 @@ function App() {
           </IconButton>
         </Flex>
         <Header />
-        <Social />
         <Profile />
+        <Social />
         <Footer />
       </VStack>
     </ChakraProvider>
