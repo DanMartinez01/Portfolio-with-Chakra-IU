@@ -20,7 +20,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <VStack p={5}>
         <Flex w="100%">
-          <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">Dani Martinez</Heading>
+          <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">Daniela Martinez</Heading>
           <Spacer />
           <ColorModeSwitcher isRound="true" />
           <IconButton icon={<FaGithub />} isRound="true"

@@ -19,19 +19,21 @@ export const Profile = () => {
                 <Heading fontWeight="bold" color="gray.400" size="2xl" textAlign="center" p={isNotSmallerScreen ? "12" : "0"}>
                     My projects
                 </Heading>
-                <Flex direction={isNotSmallerScreen ? "row" : "column"} m="8px" p="10px" >
-                    <Box w="190px" rounded="20px" overflow="hidden" bg="gray.700" m="8px" _hover={{
-                        width: "191px",
+                <Flex direction={isNotSmallerScreen ? "row" : "column"} m="8px" p="10px">
+                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
                         bg: "gray.600",
+                        mt: "2px"
                     }}>
-                        <Image src={RomaMuebles} height="110px" />
-                        <Stack align="baseline">
-                            <Box textAlign="center" p="4px" >
+                        <Image src={RomaMuebles} width="250px" height="110px" />
+                        <Stack align="baseline" alignItems="center">
+                            <Box textAlign="center" p="10px" align="baseline" >
                                 <Link href="https://www.romamuebles.com.ar/" isExternal
-                                    color="white" alignSelf="center" fontSize="xl" fontWeight="semibold" textDecoration="none"
+                                    color="white" fontSize="xl"
+                                    fontWeight="semibold" textDecoration="none"
                                 >
                                     Furniture Store
                                 </Link>
+                                <br />
                                 <Link href="https://www.romamuebles.com.ar/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
@@ -51,18 +53,20 @@ export const Profile = () => {
                             </Box>
                         </Stack>
                     </Box>
-                    <Box w="190px" rounded="20px" overflow="hidden" bg="gray.700" boxShadow="sm" m="8px" _hover={{
-                        width: "191px",
+                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
                         bg: "gray.600",
+                        mt: "2px"
                     }}>
-                        <Image src={OtroCielo} height="110px" />
-                        <Stack align="baseline">
-                            <Box textAlign="center" p="4px" >
+                        <Image src={RomaMuebles} width="250px" height="110px" />
+                        <Stack align="baseline" alignItems="center">
+                            <Box textAlign="center" p="10px" align="baseline" >
                                 <Link href="https://www.romamuebles.com.ar/" isExternal
-                                    color="white" alignSelf="center" fontSize="xl" fontWeight="semibold" textDecoration="none"
+                                    color="white" fontSize="xl"
+                                    fontWeight="semibold" textDecoration="none"
                                 >
                                     Furniture Store
                                 </Link>
+                                <br />
                                 <Link href="https://www.romamuebles.com.ar/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
@@ -82,69 +86,74 @@ export const Profile = () => {
                             </Box>
                         </Stack>
                     </Box>
-                    <Box w="190px" rounded="20px" overflow="hidden" bg="gray.700" boxShadow="sm" m="8px" _hover={{
-                        width: "191px",
+                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
                         bg: "gray.600",
+                        mt: "2px"
                     }}>
-                        <Image src={RomaMuebles} height="110px" />
+                        <Image src={RomaMuebles} width="250px" height="110px" />
+                        <Stack align="baseline" alignItems="center">
+                            <Box textAlign="center" p="10px" align="baseline" >
+                                <Link href="https://www.romamuebles.com.ar/" isExternal
+                                    color="white" fontSize="xl"
+                                    fontWeight="semibold" textDecoration="none"
+                                >
+                                    Furniture Store
+                                </Link>
+                                <br />
+                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FiLink />}
+                                    />
+                                </Link>
+                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FaGithub />}
+                                    />
+                                </Link>
+                            </Box>
+                        </Stack>
+                    </Box>
+                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
+                        bg: "gray.600",
+                        mt: "2px"
+                    }}>
+                        <Image src={RomaMuebles} width="250px" height="110px" />
+                        <Stack align="baseline" alignItems="center">
+                            <Box textAlign="center" p="10px" align="baseline" >
+                                <Link href="https://www.romamuebles.com.ar/" isExternal
+                                    color="white" fontSize="xl"
+                                    fontWeight="semibold" textDecoration="none"
+                                >
+                                    Furniture Store
+                                </Link>
+                                <br />
+                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FiLink />}
+                                    />
+                                </Link>
+                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FaGithub />}
+                                    />
+                                </Link>
+                            </Box>
+                        </Stack>
+                    </Box>
 
-                        <Stack align="baseline">
-                            <Box textAlign="center" p="4px" >
-                                <Link href="https://www.romamuebles.com.ar/" isExternal
-                                    color="white" alignSelf="center" fontSize="xl" fontWeight="semibold" textDecoration="none"
-                                >
-                                    Furniture Store
-                                </Link>
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
-                                    <IconButton
-                                        bgColor="inherit"
-                                        aria-label='Link'
-                                        size='lg'
-                                        icon={<FiLink />}
-                                    />
-                                </Link>
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
-                                    <IconButton
-                                        bgColor="inherit"
-                                        aria-label='Link'
-                                        size='lg'
-                                        icon={<FaGithub />}
-                                    />
-                                </Link>
-                            </Box>
-                        </Stack>
-                    </Box>
-                    <Box w="190px" rounded="20px" overflow="hidden" bg="gray.700" boxShadow="sm" m="8px" _hover={{
-                        width: "191px",
-                        bg: "gray.600",
-                    }}>
-                        <Image src={OtroCielo} height="110px" />
-                        <Stack align="baseline">
-                            <Box textAlign="center" p="4px" >
-                                <Link href="https://www.romamuebles.com.ar/" isExternal
-                                    color="white" alignSelf="center" fontSize="xl" fontWeight="semibold" textDecoration="none"
-                                >
-                                    Furniture Store
-                                </Link>
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
-                                    <IconButton
-                                        bgColor="inherit"
-                                        aria-label='Link'
-                                        size='lg'
-                                        icon={<FiLink />}
-                                    />
-                                </Link>
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
-                                    <IconButton
-                                        bgColor="inherit"
-                                        aria-label='Link'
-                                        size='lg'
-                                        icon={<FaGithub />}
-                                    />
-                                </Link>
-                            </Box>
-                        </Stack>
-                    </Box>
+
                 </Flex>
             </Box>
         </Flex >
