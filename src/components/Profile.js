@@ -57,7 +57,7 @@ export const Profile = () => {
                         bg: "gray.600",
                         mt: "2px"
                     }}>
-                        <Image src={RomaMuebles} width="250px" height="110px" />
+                        <Image src={OtroCielo} width="250px" height="110px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="10px" align="baseline" >
                                 <Link href="https://www.romamuebles.com.ar/" isExternal
@@ -123,7 +123,7 @@ export const Profile = () => {
                         bg: "gray.600",
                         mt: "2px"
                     }}>
-                        <Image src={RomaMuebles} width="250px" height="110px" />
+                        <Image src={OtroCielo} width="250px" height="110px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="10px" align="baseline" >
                                 <Link href="https://www.romamuebles.com.ar/" isExternal
