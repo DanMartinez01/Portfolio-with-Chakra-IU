@@ -17,7 +17,7 @@ export const Profile = () => {
         <Flex direction={isNotSmallerScreen ? "row" : "column"}>
             <Box alignSelf="center" px="12" py="8" margin={"auto"} >
                 <Heading fontWeight="bold" color="gray.400" size="2xl" textAlign="center" p={isNotSmallerScreen ? "12" : "0"}>
-                    My projects
+                    My projects:
                 </Heading>
                 <Flex direction={isNotSmallerScreen ? "row" : "column"} m="8px" p="10px">
                     <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{

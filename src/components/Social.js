@@ -10,7 +10,7 @@ export const Social = () => {
             <VStack>
                 <Heading fontWeight="bold" color="gray.400" size="2xl"
                     textAlign="center" p={isNotSmallerScreen ? "12" : "0"}>
-                    Contact Me
+                    Contact me:
                 </Heading>
                 <HStack spacing={isNotSmallerScreen ? "8" : "6"} alignItems="center" m="8px" p="10px" >
                     <Icon as={FaLinkedin} boxSize="50"
