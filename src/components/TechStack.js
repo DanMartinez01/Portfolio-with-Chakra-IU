@@ -1,4 +1,4 @@
-import { HStack, Text, Flex, Heading, Box, Link, Stack } from "@chakra-ui/layout"
+import { Text, Flex, Heading, Box, Stack } from "@chakra-ui/layout"
 
 import { useMediaQuery } from '@chakra-ui/media-query';
 // import { IconButton } from "@chakra-ui/react"
@@ -6,7 +6,7 @@ import { useMediaQuery } from '@chakra-ui/media-query';
 import { FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { DiCss3 } from 'react-icons/di';
-import { SiChakraui } from 'react-icons/si';
+// import { SiChakraui } from 'react-icons/si';
 
 
 export const TechStack = () => {
