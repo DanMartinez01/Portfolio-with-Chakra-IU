@@ -20,7 +20,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <VStack>
-        <Flex w="100%">
+        <Flex w="100%" p="10px">
           <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">Daniela Martinez</Heading>
           <Spacer />
           <ColorModeSwitcher isRound="true" mr="4px" />

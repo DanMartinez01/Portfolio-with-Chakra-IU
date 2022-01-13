@@ -15,10 +15,10 @@ export const Social = () => {
                     textAlign="center" p={isNotSmallerScreen ? "12" : "0"}>
                     Contact me:
                 </Heading>
-                <HStack spacing={isNotSmallerScreen ? "8" : "6"} alignItems="center" m="8px" p="10px" >
-                    <Icon as={FaLinkedin} boxSize="50"
+                <HStack spacing={isNotSmallerScreen ? "8" : "6"} alignItems="center" m="8px" p="8px" >
+                    <Icon as={FaLinkedin} boxSize="35px"
                         onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")} />
-                    <Icon as={FaGithub} boxSize="50"
+                    <Icon as={FaGithub} boxSize="35px"
                         onClick={() => window.open("https://github.com/DanMartinez01")} />
                 </HStack >
                 <MotionBox

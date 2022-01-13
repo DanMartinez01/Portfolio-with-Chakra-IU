@@ -38,17 +38,6 @@ export const TechStack = () => {
                             <IoLogoJavascript color="white" size="30px" />
                         </Stack>
                     </Box>
-                    {/* <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
-                        bg: "gray.600",
-                        mt: "2px"
-                    }}>
-                        <Stack align="baseline" alignItems="center" p="16px">
-                            <Text fontWeight="semibold" color="white" size="2xl" textAlign="center">
-                                Css3
-                            </Text>
-                            <DiCss3 color="white" size="32px" />
-                        </Stack>
-                    </Box> */}
                     <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
                         bg: "gray.600",
                         mt: "2px"
@@ -57,7 +46,6 @@ export const TechStack = () => {
                             <Text fontWeight="semibold" color="white" size="3xl" textAlign="center">
                                 Chakra UI
                             </Text>
-                            {/* <SiChakraui /> */}
                             <Icon viewBox="0 0 24 24" color="white" boxSize="28px">
                                 <path
                                     fill='currentColor'
