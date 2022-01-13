@@ -2,6 +2,9 @@ import React from 'react';
 import { HStack, Icon, Heading, Flex, VStack } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { Box } from '@chakra-ui/react'
+import { motion } from 'framer-motion'
+const MotionBox = motion(Box)
 
 export const Social = () => {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");
@@ -18,6 +21,14 @@ export const Social = () => {
                     <Icon as={FaGithub} boxSize="50"
                         onClick={() => window.open("https://github.com/DanMartinez01")} />
                 </HStack >
+                <MotionBox
+                    height='40px'
+                    bg='red.300'
+                    drag='x'
+                    dragConstraints={{ left: -100, right: 100 }}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                />
             </VStack>
         </Flex>
     )
