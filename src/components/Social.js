@@ -2,9 +2,6 @@ import React from 'react';
 import { HStack, Icon, Heading, Flex, VStack } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
-import { Box } from '@chakra-ui/react'
-import { motion } from 'framer-motion'
-const MotionBox = motion(Box)
 
 export const Social = () => {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");
