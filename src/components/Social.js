@@ -13,9 +13,15 @@ export const Social = () => {
                     Contact me:
                 </Heading>
                 <HStack spacing={isNotSmallerScreen ? "6" : "4"} alignItems="center" m="8px" p="8px">
-                    <Icon as={FaLinkedin} boxSize="40px" bg="gray.700" rounded="12px" p="10px" color="white"
+                    <Icon as={FaLinkedin} boxSize="40px" bg="gray.700" rounded="12px" p="10px" color="white" _hover={{
+                        bg: "gray.600",
+                        mt: "2px"
+                    }}
                         onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")} />
-                    <Icon as={FaGithub} boxSize="40px" bg="gray.700" rounded="12px" p="10px" color="white"
+                    <Icon as={FaGithub} boxSize="40px" bg="gray.700" rounded="12px" p="10px" color="white" _hover={{
+                        bg: "gray.600",
+                        mt: "2px"
+                    }}
                         onClick={() => window.open("https://github.com/DanMartinez01")} />
                 </HStack >
             </VStack>
