@@ -7,6 +7,7 @@ import { FaGithub } from 'react-icons/fa';
 import RomaMuebles from '../assets/14.jpg';
 import OtroCielo from '../assets/17.jpg';
 import VcScreen from '../assets/vcscreen.JPG';
+import BookCorner from '../assets/bookcorner.JPG';
 
 
 export const Profile = () => {
@@ -91,14 +92,14 @@ export const Profile = () => {
                         <Image src={VcScreen} width="250px" height="110px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="10px" align="baseline" >
-                                <Link href="https://www.romamuebles.com.ar/" isExternal
+                                <Link href="https://vc-beauty-ba.vercel.app/" isExternal
                                     color="white" fontSize="xl"
                                     fontWeight="semibold" textDecoration="none"
                                 >
                                     VcBeauty
                                 </Link>
                                 <br />
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                <Link href="https://vc-beauty-ba.vercel.app/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
                                         aria-label='Link'
@@ -106,7 +107,7 @@ export const Profile = () => {
                                         icon={<FiLink />}
                                     />
                                 </Link>
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                <Link href="https://github.com/DanMartinez01/VcBeautyBA" isExternal>
                                     <IconButton
                                         bgColor="inherit"
                                         aria-label='Link'
@@ -117,21 +118,21 @@ export const Profile = () => {
                             </Box>
                         </Stack>
                     </Box>
-                    {/* <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
+                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
                         bg: "gray.600",
                         mt: "2px"
                     }}>
-                        <Image src={OtroCielo} width="250px" height="110px" />
+                        <Image src={BookCorner} width="250px" height="110px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="10px" align="baseline" >
-                                <Link href="https://www.romamuebles.com.ar/" isExternal
+                                <Link href="https://thebookcorner.vercel.app/" isExternal
                                     color="white" fontSize="xl"
                                     fontWeight="semibold" textDecoration="none"
                                 >
-                                    Furniture Store
+                                    Library with Ts
                                 </Link>
                                 <br />
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                <Link href="https://thebookcorner.vercel.app/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
                                         aria-label='Link'
@@ -139,7 +140,7 @@ export const Profile = () => {
                                         icon={<FiLink />}
                                     />
                                 </Link>
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                <Link href="https://github.com/DanMartinez01/MiniLibrary-with-Next.Js" isExternal>
                                     <IconButton
                                         bgColor="inherit"
                                         aria-label='Link'
@@ -149,7 +150,7 @@ export const Profile = () => {
                                 </Link>
                             </Box>
                         </Stack>
-                    </Box> */}
+                    </Box>
                 </Flex>
             </Box>
         </Flex >
