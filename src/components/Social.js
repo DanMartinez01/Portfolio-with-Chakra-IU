@@ -12,7 +12,7 @@ export const Social = () => {
                     textAlign="center" p={isNotSmallerScreen ? "12" : "0"}>
                     Contact me:
                 </Heading>
-                <HStack spacing={isNotSmallerScreen ? "6" : "4"} alignItems="center" m="8px" p="8px">
+                <HStack spacing={isNotSmallerScreen ? "6" : "4"} alignItems="center" m="4" p="4">
                     <Icon as={FaLinkedin} boxSize="40px" bg="gray.700" rounded="12px" p="10px" color="white" _hover={{
                         bg: "gray.600",
                         mt: "2px"
