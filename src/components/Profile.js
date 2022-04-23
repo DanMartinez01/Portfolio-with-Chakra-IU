@@ -24,6 +24,39 @@ export const Profile = () => {
                         bg: "gray.600",
                         mt: "2px"
                     }}>
+                        <Image src={VcScreen} width="250px" height="120px" />
+                        <Stack align="baseline" alignItems="center">
+                            <Box textAlign="center" p="1" align="baseline" >
+                                <Link href="https://vc-beauty-ba.vercel.app/" isExternal
+                                    color="white" fontSize="xl"
+                                    fontWeight="semibold" textDecoration="none"
+                                >
+                                    VC Beauty
+                                </Link>
+                                <br />
+                                <Link href="https://vc-beauty-ba.vercel.app/" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FiLink />}
+                                    />
+                                </Link>
+                                <Link href="https://github.com/DanMartinez01/VcBeautyBA" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FaGithub />}
+                                    />
+                                </Link>
+                            </Box>
+                        </Stack>
+                    </Box>
+                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
+                        bg: "gray.600",
+                        mt: "2px"
+                    }}>
                         <Image src={RomaMuebles} width="250px" height="120px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="1" align="baseline">
@@ -87,39 +120,7 @@ export const Profile = () => {
                             </Box>
                         </Stack>
                     </Box>
-                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
-                        bg: "gray.600",
-                        mt: "2px"
-                    }}>
-                        <Image src={VcScreen} width="250px" height="120px" />
-                        <Stack align="baseline" alignItems="center">
-                            <Box textAlign="center" p="1" align="baseline" >
-                                <Link href="https://vc-beauty-ba.vercel.app/" isExternal
-                                    color="white" fontSize="xl"
-                                    fontWeight="semibold" textDecoration="none"
-                                >
-                                    VcBeauty
-                                </Link>
-                                <br />
-                                <Link href="https://vc-beauty-ba.vercel.app/" isExternal>
-                                    <IconButton
-                                        bgColor="inherit"
-                                        aria-label='Link'
-                                        size='lg'
-                                        icon={<FiLink />}
-                                    />
-                                </Link>
-                                <Link href="https://github.com/DanMartinez01/VcBeautyBA" isExternal>
-                                    <IconButton
-                                        bgColor="inherit"
-                                        aria-label='Link'
-                                        size='lg'
-                                        icon={<FaGithub />}
-                                    />
-                                </Link>
-                            </Box>
-                        </Stack>
-                    </Box>
+
                     <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
                         bg: "gray.600",
                         mt: "2px"
