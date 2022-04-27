@@ -15,12 +15,12 @@ export const Social = () => {
                 <HStack spacing={isNotSmallerScreen ? "6" : "4"} alignItems="center" m="4" p="4">
                     <Icon as={FaLinkedin} boxSize="40px" bg="gray.700" rounded="12px" p="10px" color="white" _hover={{
                         bg: "gray.600",
-                        mt: "2px"
+
                     }}
                         onClick={() => window.open("https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/")} />
                     <Icon as={FaGithub} boxSize="40px" bg="gray.700" rounded="12px" p="10px" color="white" _hover={{
                         bg: "gray.600",
-                        mt: "2px"
+
                     }}
                         onClick={() => window.open("https://github.com/DanMartinez01")} />
                 </HStack >
