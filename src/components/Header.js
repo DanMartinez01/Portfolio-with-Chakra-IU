@@ -9,10 +9,10 @@ export const Header = () => {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:800px)");
 
     return (
-        <Stack p="0" mb="2">
+        <Stack p="0" m="0">
             {/* <Circle position="absolute" bg="blue.100" opacity="0.1" w="180px" h="180px" alignSelf="flex-end" /> */}
             <Flex direction={isNotSmallerScreen ? "row" : "column"}
-                spacing="200px" p={isNotSmallerScreen ? "12" : "0"}
+                spacing="200px" p={isNotSmallerScreen ? "8" : "0"}
                 alignSelf="center">
                 <Box mt={isNotSmallerScreen ? "0" : "16"} alignSelf="center" textAlign="center">
                     <Stack isInline align="baseline" justifyContent="center">

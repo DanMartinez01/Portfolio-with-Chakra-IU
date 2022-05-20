@@ -32,8 +32,8 @@ function App() {
           </IconButton>
         </Flex>
         <Header />
-        <Profile />
         <TechStack />
+        <Profile />
         <Social />
         <Footer />
       </VStack>

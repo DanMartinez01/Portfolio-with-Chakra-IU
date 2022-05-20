@@ -5,7 +5,7 @@ import { IconButton } from '@chakra-ui/react'
 import { FiLink } from 'react-icons/fi';
 import { FaGithub } from 'react-icons/fa';
 import RomaMuebles from '../assets/14.jpg';
-import OtroCielo from '../assets/17.jpg';
+import OtroCielo from '../assets/17.JPG';
 import VcScreen from '../assets/vcscreen.JPG';
 import BookCorner from '../assets/bookcorner.JPG';
 
@@ -24,14 +24,14 @@ export const Profile = () => {
                         bg: "gray.600",
                         mt: "2px"
                     }}>
-                        <Image src={VcScreen} width="250px" height="120px" />
+                        <Image src={VcScreen} width="250px" height="130px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="1" align="baseline" >
                                 <Link href="https://vc-beauty-ba.vercel.app/" isExternal
                                     color="white" fontSize="xl"
                                     fontWeight="semibold" textDecoration="none"
                                 >
-                                    VC Beauty
+                                    Vcbeauty
                                 </Link>
                                 <br />
                                 <Link href="https://vc-beauty-ba.vercel.app/" isExternal>
@@ -57,7 +57,7 @@ export const Profile = () => {
                         bg: "gray.600",
                         mt: "2px"
                     }}>
-                        <Image src={RomaMuebles} width="250px" height="120px" />
+                        <Image src={RomaMuebles} width="250px" height="130px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="1" align="baseline">
                                 <Link href="https://www.romamuebles.com.ar/" isExternal
@@ -91,7 +91,7 @@ export const Profile = () => {
                         bg: "gray.600",
                         mt: "2px"
                     }}>
-                        <Image src={OtroCielo} width="250px" height="120px" />
+                        <Image src={OtroCielo} width="250px" height="130px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="1" align="baseline" >
                                 <Link href="https://otrocielostore.netlify.app/" isExternal
@@ -125,7 +125,7 @@ export const Profile = () => {
                         bg: "gray.600",
                         mt: "2px"
                     }}>
-                        <Image src={BookCorner} width="250px" height="120px" />
+                        <Image src={BookCorner} width="250px" height="130px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="1" align="baseline" >
                                 <Link href="https://thebookcorner.vercel.app/" isExternal
