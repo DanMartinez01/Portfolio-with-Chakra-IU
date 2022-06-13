@@ -27,14 +27,14 @@ export const Profile = () => {
                         <Image src={VcScreen} width="250px" height="130px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="1" align="baseline" >
-                                <Link href="https://vc-beauty-ba.vercel.app/" isExternal
+                                <Link href="https://www.vcbeautyba.com.ar/" isExternal
                                     color="white" fontSize="xl"
                                     fontWeight="semibold" textDecoration="none"
                                 >
                                     Vcbeauty
                                 </Link>
                                 <br />
-                                <Link href="https://vc-beauty-ba.vercel.app/" isExternal>
+                                <Link href="https://www.vcbeautyba.com.ar/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
                                         aria-label='Link'
