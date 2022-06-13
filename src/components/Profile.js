@@ -5,7 +5,7 @@ import { IconButton } from '@chakra-ui/react'
 import { FiLink } from 'react-icons/fi';
 import { FaGithub } from 'react-icons/fa';
 import RomaMuebles from '../assets/14.jpg';
-import OtroCielo from '../assets/14.jpg';
+import OtroCielo from '../assets/17.JPG';
 import VcScreen from '../assets/vcscreen.JPG';
 import BookCorner from '../assets/bookcorner.JPG';
 
