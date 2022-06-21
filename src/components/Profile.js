@@ -128,14 +128,14 @@ export const Profile = () => {
                         <Image src={BookCorner} width="250px" height="130px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="1" align="baseline" >
-                                <Link href="https://thebookcorner.vercel.app/" isExternal
+                                <Link href="https://theenglishcorner.vercel.app/" isExternal
                                     color="white" fontSize="xl"
                                     fontWeight="semibold" textDecoration="none"
                                 >
-                                    Library with Ts
+                                    The English Corner
                                 </Link>
                                 <br />
-                                <Link href="https://thebookcorner.vercel.app/" isExternal>
+                                <Link href="https://theenglishcorner.vercel.app/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
                                         aria-label='Link'
