@@ -10,6 +10,7 @@ import VcScreen from '../assets/vcscreen.JPG';
 import BookCorner from '../assets/bookcorner.JPG';
 import Rgb from '../assets/rgbgame.JPG';
 import Portfolio from '../assets/portfolio2.JPG';
+import Ig from '../assets/igscreenshot.JPG';
 
 
 export const Profile = () => {
@@ -35,7 +36,7 @@ export const Profile = () => {
                                     color="white" fontSize="xl"
                                     fontWeight="semibold" textDecoration="none"
                                 >
-                                    Vcbeauty
+                                    VC Beauty
                                 </Link>
                                 <br />
                                 <Link href="https://www.vcbeautyba.com.ar/" isExternal>
@@ -102,7 +103,7 @@ export const Profile = () => {
                                     color="white" fontSize="xl"
                                     fontWeight="semibold" textDecoration="none"
                                 >
-                                    OtroCielo
+                                    Jewelry Store
                                 </Link>
                                 <br />
                                 <Link href="https://otrocielostore.netlify.app/" isExternal>
@@ -214,6 +215,39 @@ export const Profile = () => {
                                     />
                                 </Link>
                                 <Link href="https://github.com/DanMartinez01/Portfolio-with-Chakra-UI" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FaGithub />}
+                                    />
+                                </Link>
+                            </Box>
+                        </Stack>
+                    </Box>
+                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
+                        bg: "gray.600",
+                        mt: "2px"
+                    }}>
+                        <Image src={Ig} width="250px" height="130px" />
+                        <Stack align="baseline" alignItems="center">
+                            <Box textAlign="center" p="1" align="baseline" >
+                                <Link href="https://ig-post-clone.netlify.app/" isExternal
+                                    color="white" fontSize="xl"
+                                    fontWeight="semibold" textDecoration="none"
+                                >
+                                    Ig clone Vanilla Js
+                                </Link>
+                                <br />
+                                <Link href="https://ig-post-clone.netlify.app/" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FiLink />}
+                                    />
+                                </Link>
+                                <Link href="https://github.com/DanMartinez01/Instagram-Post-Clone" isExternal>
                                     <IconButton
                                         bgColor="inherit"
                                         aria-label='Link'
