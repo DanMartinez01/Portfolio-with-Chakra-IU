@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { Flex, Box, Link, Heading, Image, Stack } from '@chakra-ui/react'
+import { Flex, Box, Link, Heading, Image, Stack, Text } from '@chakra-ui/react'
 import { IconButton } from '@chakra-ui/react'
 import { FiLink } from 'react-icons/fi';
 import { FaGithub } from 'react-icons/fa';
@@ -11,6 +11,7 @@ import BookCorner from '../assets/bookcorner.JPG';
 import Rgb from '../assets/rgbgame.JPG';
 import Portfolio from '../assets/portfolio2.JPG';
 import Ig from '../assets/igscreenshot.JPG';
+import Almacen from '../assets/almacen1.JPG';
 
 
 export const Profile = () => {
@@ -39,6 +40,7 @@ export const Profile = () => {
                                     VC Beauty
                                 </Link>
                                 <br />
+                                <Text>React-NextJs-Css</Text>
                                 <Link href="https://www.vcbeautyba.com.ar/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
@@ -72,6 +74,7 @@ export const Profile = () => {
                                     Furniture Store
                                 </Link>
                                 <br />
+                                <Text>React-Css</Text>
                                 <Link href="https://www.romamuebles.com.ar/" isExternal>
 
                                     <IconButton
@@ -106,6 +109,7 @@ export const Profile = () => {
                                     Jewelry Store
                                 </Link>
                                 <br />
+                                <Text>React-Firebase</Text>
                                 <Link href="https://otrocielostore.netlify.app/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
@@ -140,6 +144,7 @@ export const Profile = () => {
                                     The English Corner
                                 </Link>
                                 <br />
+                                <Text>React-Typescript-ChakraUI</Text>
                                 <Link href="https://theenglishcorner.vercel.app/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
@@ -173,6 +178,7 @@ export const Profile = () => {
                                     Rgb Guessing Game
                                 </Link>
                                 <br />
+                                <Text>HTML-CSS-JS</Text>
                                 <Link href="https://guessthecolorrgb.netlify.app/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
@@ -206,6 +212,7 @@ export const Profile = () => {
                                     My portfolio
                                 </Link>
                                 <br />
+                                <Text>React-ChakraUI</Text>
                                 <Link href="https://danielamartinez.netlify.app/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
@@ -239,6 +246,7 @@ export const Profile = () => {
                                     Ig clone Vanilla Js
                                 </Link>
                                 <br />
+                                <Text>HTML-CSS-JS</Text>
                                 <Link href="https://ig-post-clone.netlify.app/" isExternal>
                                     <IconButton
                                         bgColor="inherit"
@@ -248,6 +256,40 @@ export const Profile = () => {
                                     />
                                 </Link>
                                 <Link href="https://github.com/DanMartinez01/Instagram-Post-Clone" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FaGithub />}
+                                    />
+                                </Link>
+                            </Box>
+                        </Stack>
+                    </Box>
+                    <Box w="250px" rounded="12px" overflow="hidden" bg="gray.700" m="8px" _hover={{
+                        bg: "gray.600",
+                        mt: "2px"
+                    }}>
+                        <Image src={Almacen} width="250px" height="130px" />
+                        <Stack align="baseline" alignItems="center">
+                            <Box textAlign="center" p="1" align="baseline" >
+                                <Link href="https://elalmacenjs.netlify.app/" isExternal
+                                    color="white" fontSize="xl"
+                                    fontWeight="semibold" textDecoration="none"
+                                >
+                                    El almacenJs
+                                </Link>
+                                <br />
+                                <Text>HTML-CSS-JS</Text>
+                                <Link href="https://elalmacenjs.netlify.app/" isExternal>
+                                    <IconButton
+                                        bgColor="inherit"
+                                        aria-label='Link'
+                                        size='lg'
+                                        icon={<FiLink />}
+                                    />
+                                </Link>
+                                <Link href="https://github.com/DanMartinez01/El-almacen" isExternal>
                                     <IconButton
                                         bgColor="inherit"
                                         aria-label='Link'
