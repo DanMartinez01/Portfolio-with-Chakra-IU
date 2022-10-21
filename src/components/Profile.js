@@ -67,7 +67,7 @@ export const Profile = () => {
                         <Image src={RomaMuebles} width="250px" height="130px" />
                         <Stack align="baseline" alignItems="center">
                             <Box textAlign="center" p="1" align="baseline">
-                                <Link href="https://www.romamuebles.com.ar/" isExternal
+                                <Link href="https://jovial-montalcini-dfa80d.netlify.app/" isExternal
                                     color="white" fontSize="xl"
                                     fontWeight="semibold" textDecoration="none" mb="2" py="2"
                                 >
@@ -75,7 +75,7 @@ export const Profile = () => {
                                 </Link>
                                 <br />
                                 <Text>React-Css</Text>
-                                <Link href="https://www.romamuebles.com.ar/" isExternal>
+                                <Link href="https://jovial-montalcini-dfa80d.netlify.app/" isExternal>
 
                                     <IconButton
                                         bgColor="inherit"
