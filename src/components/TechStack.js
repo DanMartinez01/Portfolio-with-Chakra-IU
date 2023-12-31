@@ -5,7 +5,6 @@ import { useMediaQuery } from '@chakra-ui/media-query';
 import { FaReact, FaGitSquare } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiTypescript, SiTailwindcss } from 'react-icons/si';
-import { TbBrandReactNative } from 'react-icons/tb';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 
@@ -217,7 +216,7 @@ export const TechStack = () => {
               >
                 React Native
               </Text>
-              <TbBrandReactNative size="30" />
+              <FaReact size="30" />
             </Stack>
           </Box>
           <Box
