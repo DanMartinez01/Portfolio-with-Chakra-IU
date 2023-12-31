@@ -52,14 +52,12 @@ export const Header = () => {
           <Spacer p="2" />
 
           <Text px="6">
-            I am a dedicated Front-End Developer who thrives on learning,
-            collaboration, and the opportunity to bring innovative web solutions
-            to life.
+            Hi, I'm a front-end developer skilled in creating visually appealing
+            and user-friendly websites. I specialize in responsive design and
+            dynamic animations, combining creativity with technical know-how.
+            Let's turn your ideas into a seamless digital experience!
           </Text>
-          <Text px="6">
-            My passion for this ever-evolving field drives me to excel in both
-            individual and team-oriented projects.
-          </Text>
+
           <Button
             m="8"
             p="4"
