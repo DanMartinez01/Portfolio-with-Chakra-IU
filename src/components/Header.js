@@ -1,15 +1,27 @@
 import React from 'react';
 import { Stack, Flex, Box, Text, Button, Spacer } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query';
+import { useInView } from 'framer-motion';
+import { useRef } from 'react';
 
 // import profilePhoto from '../assets/profilePic.jpg'
 
 export const Header = () => {
   const [isNotSmallerScreen] = useMediaQuery('(min-width:800px)');
 
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   return (
-    <Stack p="0" m="0">
-      {/* <Circle position="absolute" bg="blue.100" opacity="0.1" w="180px" h="180px" alignSelf="flex-end" /> */}
+    <Stack
+      p="0"
+      m="0"
+      ref={ref}
+      style={{
+        transform: isInView ? 'none' : 'translateX(-200px)',
+        opacity: isInView ? 1 : 0,
+        transition: 'all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s',
+      }}
+    >
       <Flex
         direction={isNotSmallerScreen ? 'row' : 'column'}
         spacing="200px"

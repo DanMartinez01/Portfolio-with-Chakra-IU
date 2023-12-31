@@ -20,6 +20,7 @@ export const Profile = () => {
       <Box alignSelf="center" px="4" py="1" margin={'auto'}>
         <Heading
           fontWeight="bold"
+          fontFamily="Rajdhani, sans-serif"
           color="gray.400"
           size="2xl"
           textAlign="center"
