@@ -2,29 +2,36 @@ import React from 'react';
 import { Text, Flex, Heading, Box, Stack } from '@chakra-ui/layout';
 import { Icon } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { FaReact } from 'react-icons/fa';
+import { FaReact, FaGitSquare } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiTypescript } from 'react-icons/si';
+import { SiTypescript, SiTailwindcss } from 'react-icons/si';
+import { TbBrandReactNative } from 'react-icons/tb';
+import { useInView } from 'framer-motion';
+import { useRef } from 'react';
 
 export const TechStack = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   const [isNotSmallerScreen] = useMediaQuery('(min-width:1200px)');
+
   return (
     <Flex
       direction={isNotSmallerScreen ? 'row' : 'column'}
-      margin="auto"
       justifyContent="center"
+      justifyItems="center"
+      margin="auto"
+      flexWrap="wrap"
+      ref={ref}
+      style={{
+        transform: isInView ? 'none' : 'translateX(-200px)',
+        opacity: isInView ? 1 : 0,
+        transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
+      }}
     >
-      <Box
-        alignSelf="center"
-        px="2"
-        py="2"
-        width="70%"
-        flexWrap="wrap"
-        margin="auto"
-        justifyContent="center"
-      >
+      <Box alignSelf="center" margin="auto" px="2" py="2">
         <Heading
           fontWeight="bold"
+          fontFamily="Rajdhani, sans-serif"
           color="gray.400"
           size="2xl"
           textAlign="center"
@@ -34,9 +41,13 @@ export const TechStack = () => {
         </Heading>
         <Flex
           direction={isNotSmallerScreen ? 'row' : 'column'}
-          m="8px"
-          p="16px"
+          my="2"
+          py="2"
+          px="4"
           textAlign="center"
+          justifyContent="center"
+          flexWrap="wrap"
+          margin="auto"
         >
           <Box
             w="250px"
@@ -161,6 +172,75 @@ export const TechStack = () => {
                 Typescript
               </Text>
               <SiTypescript color="white" size="24px" />
+            </Stack>
+          </Box>
+          <Box
+            w="250px"
+            rounded="12px"
+            overflow="hidden"
+            bg="gray.700"
+            m="8px"
+            _hover={{
+              bg: 'gray.600',
+              mt: '2px',
+            }}
+          >
+            <Stack align="baseline" alignItems="center" p="16px">
+              <Text
+                fontWeight="semibold"
+                color="white"
+                size="3xl"
+                textAlign="center"
+              >
+                TailwindCss
+              </Text>
+              <SiTailwindcss size="30" />
+            </Stack>
+          </Box>
+          <Box
+            w="250px"
+            rounded="12px"
+            overflow="hidden"
+            bg="gray.700"
+            m="8px"
+            _hover={{
+              bg: 'gray.600',
+              mt: '2px',
+            }}
+          >
+            <Stack align="baseline" alignItems="center" p="16px">
+              <Text
+                fontWeight="semibold"
+                color="white"
+                size="3xl"
+                textAlign="center"
+              >
+                React Native
+              </Text>
+              <TbBrandReactNative size="30" />
+            </Stack>
+          </Box>
+          <Box
+            w="250px"
+            rounded="12px"
+            overflow="hidden"
+            bg="gray.700"
+            m="8px"
+            _hover={{
+              bg: 'gray.600',
+              mt: '2px',
+            }}
+          >
+            <Stack align="baseline" alignItems="center" p="16px">
+              <Text
+                fontWeight="semibold"
+                color="white"
+                size="3xl"
+                textAlign="center"
+              >
+                Git
+              </Text>
+              <FaGitSquare size="30" />
             </Stack>
           </Box>
         </Flex>
