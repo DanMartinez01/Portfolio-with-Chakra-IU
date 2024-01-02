@@ -7,10 +7,10 @@ import { useRef } from 'react';
 // import profilePhoto from '../assets/profilePic.jpg'
 
 export const Header = () => {
-  const [isNotSmallerScreen] = useMediaQuery('(min-width:800px)');
-
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+  const [isNotSmallerScreen] = useMediaQuery('(min-width:800px)');
+
   return (
     <Stack
       p="0"
