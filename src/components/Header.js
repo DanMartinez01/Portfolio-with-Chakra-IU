@@ -51,11 +51,13 @@ export const Header = () => {
           </Text>
           <Spacer p="2" />
 
-          <Text px="6">
+          <Text px="20">
             Hi, I'm a front-end developer skilled in creating visually appealing
-            and user-friendly websites. I specialize in responsive design and
-            dynamic animations, combining creativity with technical know-how.
-            Let's turn your ideas into a seamless digital experience!
+            and user-friendly websites.
+          </Text>
+          <Text px="20">
+            I specialize in responsive design and dynamic animations, combining
+            creativity with technical know-how.
           </Text>
 
           <Button
