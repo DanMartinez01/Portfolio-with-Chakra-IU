@@ -4,7 +4,6 @@ import { Flex, Box, Link, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import { IconButton } from '@chakra-ui/react';
 import { FiLink } from 'react-icons/fi';
 import { FaGithub } from 'react-icons/fa';
-import RomaMuebles from '../assets/14.jpg';
 import OtroCielo from '../assets/oc.JPG';
 import VcScreen from '../assets/vcscreen.JPG';
 import BookCorner from '../assets/bookcorner.JPG';
@@ -12,6 +11,7 @@ import Rgb from '../assets/rgbgame.JPG';
 import Portfolio from '../assets/portfolio2.JPG';
 import Ig from '../assets/igscreenshot.JPG';
 import Almacen from '../assets/almacen1.JPG';
+import blogapp from '../assets/blogapp.JPG';
 
 export const Profile = () => {
   const [isNotSmallerScreen] = useMediaQuery('(min-width:1200px)');
@@ -98,11 +98,11 @@ export const Profile = () => {
               mt: '2px',
             }}
           >
-            <Image src={RomaMuebles} width="250px" height="130px" />
+            <Image src={blogapp} width="250px" height="130px" />
             <Stack align="baseline" alignItems="center">
               <Box textAlign="center" p="1" align="baseline">
                 <Link
-                  href="https://jovial-montalcini-dfa80d.netlify.app/"
+                  href="https://myblogapp-amber.vercel.app/"
                   isExternal
                   color="white"
                   fontSize="xl"
@@ -111,14 +111,11 @@ export const Profile = () => {
                   mb="2"
                   py="2"
                 >
-                  Furniture Store
+                  Blog App
                 </Link>
                 <br />
-                <Text>React-Css</Text>
-                <Link
-                  href="https://jovial-montalcini-dfa80d.netlify.app/"
-                  isExternal
-                >
+                <Text>NextJs-PostgreSQL-TailwindCss</Text>
+                <Link href="https://myblogapp-amber.vercel.app/" isExternal>
                   <IconButton
                     bgColor="inherit"
                     aria-label="Link"
@@ -127,7 +124,7 @@ export const Profile = () => {
                   />
                 </Link>
                 <Link
-                  href="https://github.com/DanMartinez01/RomaMueblesStore"
+                  href="https://github.com/DanMartinez01/myblogapp"
                   isExternal
                 >
                   <IconButton
